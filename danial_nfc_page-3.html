@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دانیال بیکی | اطلاعات تماس</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f4f6f8;color:#17202a}
+.wrap{max-width:520px;margin:auto;padding:28px 18px 40px}
+.card{background:#fff;border-radius:24px;padding:28px 20px;box-shadow:0 10px 35px #00000012;text-align:center}
+.avatar{width:82px;height:82px;border-radius:50%;margin:0 auto 14px;background:#17202a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700}
+h1{font-size:25px;margin:8px 0 5px}
+.sub{color:#6b7280;margin:0 0 24px}
+a.btn,button{display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;border:0;border-radius:15px;padding:16px;margin:11px 0;font-size:16px;font-family:inherit;cursor:pointer}
+.btn{background:#f1f3f5;color:#17202a}
+.btn strong{font-size:16px}
+.btn small{display:block;color:#6b7280;margin-top:4px;direction:ltr}
+.icon{font-size:22px;min-width:30px}
+.copy{background:#eef2ff;color:#243b8a}
+.note{font-size:12px;color:#8a8f98;margin-top:18px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main class="card">
+    <div class="avatar">د</div>
+    <h1>دانیال بیکی</h1>
+    <p class="sub">اطلاعات تماس</p>
+
+    <a class="btn" href="tel:09964252705">
+      <span><strong>📞 تلفن</strong><small>۰۹۹۶۴۲۵۲۷۰۵</small></span><span class="icon">›</span>
+    </a>
+
+    <a class="btn" href="https://eitaa.com/DaniDL1117" target="_blank" rel="noopener">
+      <span><strong>💬 ایتا</strong><small>@DaniDL1117</small></span><span class="icon">›</span>
+    </a>
+
+    <a class="btn" href="https://t.me/DLGANG26" target="_blank" rel="noopener">
+      <span><strong>✈️ تلگرام</strong><small>@DLGANG26</small></span><span class="icon">›</span>
+    </a>
+
+    <button class="copy" onclick="copyCard()">💳 <span>کپی شماره کارت</span><span>6219861357779973</span></button>
+
+    <p class="note">با لمس هر گزینه، مقصد مربوطه باز می‌شود. برای تلفن، شماره‌گیر گوشی باز خواهد شد.</p>
+  </main>
+</div>
+
+<script>
+function copyCard(){
+  const n='6219861357779973';
+  navigator.clipboard?.writeText(n).then(()=>alert('شماره کارت کپی شد')).catch(()=>prompt('شماره کارت:',n));
+}
+</script>
+</body>
+</html>
